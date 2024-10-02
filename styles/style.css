@@ -4,6 +4,7 @@
   justify-content: space-between;
   justify-items: center;
   flex-direction: row;
+  font-size: 22px;
   align-items: center;
   display: flex;
   padding: 92px 50px 92px;
@@ -143,7 +144,7 @@
 
 .cover__description-text {
   color: #fff;
-  word-spacing: 19px;
+  word-spacing: 20px;
   font-size: 22px;
   z-index: 2;
 }
