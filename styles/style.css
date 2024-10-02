@@ -194,7 +194,7 @@
 }
 
 .lots__card-list-item {
-  flex-grow: 1; /* убрать */
+  flex-grow: 1;
   min-height: 540px;
   width: 250px;
 }
@@ -208,7 +208,6 @@
   display: flex;
   color: #fff;
   height: inherit;
-  height: 100%;
 }
 
 .card_type_film {
