@@ -6,20 +6,20 @@
   flex-direction: row;
   align-items: center;
   display: flex;
-  padding: 92px 50px;
+  padding: 92px 50px 92px;
 }
 
 .header__menu {
   align-items: center;
   display: flex;
-  padding: 0 10px 0 10px;
+  padding: 0 14px 0 14px;
 }
 
 .header__links-list {
   flex-flow: row;
   display: flex;
   color: #000;
-  gap: 32px;
+  gap: 34px;
 }
 
 .header__links-list-item {
@@ -58,7 +58,7 @@
   flex-direction: column;
   display: flex;
   color: #000;
-  padding: 0 10px 0 10px;
+  padding: 0 8px 0 8px;
   line-height: 25.48px;
 }
 
@@ -75,7 +75,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  padding: 170px 50px 50px;
+  padding: 175px 50px 50px;
   height: 757px;
 }
 
@@ -108,7 +108,6 @@
   font-style: normal;
   display: block;
   letter-spacing: 0.3em;
-  line-height: 115%;
   font-weight: 700;
   font-size: 100px;
   z-index: 2;
@@ -142,7 +141,7 @@
 
 .cover__description-text {
   color: #fff;
-  word-spacing: 18px;
+  word-spacing: 19px;
   font-size: 22px;
   z-index: 2;
 }
@@ -186,13 +185,6 @@
   justify-content: center;
 }
 
-.card .overlay {
-  display: flex;
-  padding: 50px 40px;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 .lots__card-list-item {
   flex-grow: 1;
   min-height: 540px;
@@ -208,6 +200,13 @@
   display: flex;
   color: #fff;
   height: inherit;
+}
+
+.card .overlay {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+  flex-direction: column;
 }
 
 .card_type_film {
@@ -242,9 +241,10 @@
 }
 
 .card__text {
-  line-height: 100%;
+  line-height: 120%;
   font-weight: 400;
   font-size: 20px;
+  color: #fff;
 }
 
 .lots__look-more-link {
@@ -252,6 +252,7 @@
   margin-left: 40px;
   font-size: 20px;
   text-decoration: none;
+  color: #fff;
 }
 
 /**ABOUT**/
