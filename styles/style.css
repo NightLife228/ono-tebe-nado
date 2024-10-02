@@ -48,7 +48,8 @@
   justify-content: center;
   margin-right: auto;
   display: flex;
-  margin-left: 1rem;
+  margin-left: 24px;
+  margin-top: 2px;
 }
 
 .header__logo-image {
