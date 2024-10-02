@@ -14,7 +14,7 @@
   align-items: center;
   display: flex;
   padding: 0 14px 0 14px;
-  margin-left: 15px;
+  margin-left: -15px;
 }
 
 .header__links-list {
