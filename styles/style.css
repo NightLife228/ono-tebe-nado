@@ -6,7 +6,7 @@
   flex-direction: row;
   align-items: center;
   display: flex;
-  margin: 92px 45px;
+  padding: 92px 50px;
 }
 
 .header__menu {
