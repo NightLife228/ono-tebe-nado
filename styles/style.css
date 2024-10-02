@@ -1,1 +1,260 @@
-/* место для вашего кода */
+/**HEADER**/
+
+.header {
+  justify-content: space-between;
+  justify-items: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  margin: 92px 45px;
+}
+
+.header__menu {
+  align-items: center;
+  display: flex;
+  padding: 0 10px 0 10px;
+}
+
+.header__links-list {
+  flex-flow: row;
+  display: flex;
+  color: #000;
+  gap: 32px;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: #000;
+  line-height: 1.2;
+  font-size: 17px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  justify-content: center;
+  margin-right: auto;
+  display: flex;
+  margin-left: 2rem;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  flex-direction: column;
+  display: flex;
+  color: #000;
+  padding: 0 10px 0 10px;
+  line-height: 25.48px;
+}
+
+.header__address {
+  font-style: normal;
+  max-width: 240px;
+  font-size: 18px;
+}
+
+/**COVER**/
+
+.cover {
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 170px 50px 50px;
+  height: 757px;
+}
+
+.overlay {
+  background-color: #000;
+  position: absolute;
+  height: 100%;
+  opacity: 0.6;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.cover__title {
+  text-transform: uppercase;
+  flex-direction: column;
+  display: flex;
+  color: #fff;
+  letter-spacing: 0.3em;
+  margin-bottom: 135px;
+  line-height: 1.15;
+  font-size: 100px;
+  row-gap: 25px;
+}
+
+.aligned-text {
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  display: block;
+  letter-spacing: 0.3em;
+  line-height: 115%;
+  font-weight: 700;
+  font-size: 100px;
+  z-index: 2;
+}
+
+.aligned-text_center {
+  text-align: center;
+  line-height: 1;
+}
+
+.aligned-text_right {
+  text-align: right;
+  line-height: 1;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0em;
+}
+
+.cover__description {
+  text-transform: uppercase;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  gap: 78px;
+}
+
+.cover__description-text {
+  color: #fff;
+  word-spacing: 18px;
+  font-size: 22px;
+  z-index: 2;
+}
+
+.bet-button {
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  font-weight: normal;
+  display: flex;
+  padding: 12px 32px;
+  font-size: 22px;
+  color: #fff;
+  z-index: 2;
+}
+
+/**LOTS**/
+
+.lots {
+  position: relative;
+  padding: 180px 20px 0 20px;
+}
+
+.lots__heading {
+  color: #000;
+  margin: 0 0 27px 34px;
+  line-height: 47px;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 30px;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card .overlay {
+  display: flex;
+  padding: 50px 40px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.lots__card-list-item {
+  flex-grow: 1; /* убрать */
+  min-height: 540px;
+  width: 250px;
+}
+
+.card-link {
+  text-decoration: none;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  color: #fff;
+  height: inherit;
+  height: 100%;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  position: relative;
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card__title {
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 22px;
+
+}
+
+.card__text {
+  line-height: 100%;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.lots__look-more-link {
+  border-bottom: 1px solid #000;
+  margin-left: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/**ABOUT**/
