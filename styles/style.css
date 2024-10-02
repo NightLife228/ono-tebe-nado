@@ -32,7 +32,7 @@
 }
 
 .header__link {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #000;
   text-decoration: none;
   color: #000;
   line-height: 1.2;
@@ -41,13 +41,14 @@
 
 .header__link_active {
   text-decoration: none;
+  border-bottom: none;
 }
 
 .header__logo {
   justify-content: center;
   margin-right: auto;
   display: flex;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .header__logo-image {
