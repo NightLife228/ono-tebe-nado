@@ -14,7 +14,7 @@
   align-items: center;
   display: flex;
   padding: 0 14px 0 14px;
-  margin-left: -15px;
+  margin-left: -14px;
 }
 
 .header__links-list {
@@ -49,7 +49,7 @@
   justify-content: center;
   margin-right: auto;
   display: flex;
-  margin-left: 27px;
+  margin-left: 40px;
   margin-top: 1px;
 }
 
