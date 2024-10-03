@@ -93,13 +93,12 @@
 
 .overlay {
   position: absolute;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
-  opacity: 0.6;
   width: 100%;
-  z-index: 1;
   left: 0;
   top: 0;
+  z-index: 1;
 }
 
 .cover__title {
@@ -156,7 +155,7 @@
   color: #fff;
   word-spacing: 20px;
   font-size: 22px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .bet-button {
@@ -168,7 +167,7 @@
   padding: 12px 32px;
   font-size: 22px;
   color: #fff;
-  z-index: 2;
+  z-index: 1;
 }
 
 /**LOTS**/
@@ -217,7 +216,10 @@
   justify-content: space-between;
   flex-direction: column;
   padding: 50px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
+
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
