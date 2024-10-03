@@ -271,7 +271,7 @@
 
 .about {
   display: grid;
-  margin: 146px 24px 180px 24px;
+  margin: 171px 24px 180px 50px;
   column-gap: 10px;
   grid-template-columns: 1fr 2fr;
 }
