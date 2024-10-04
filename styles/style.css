@@ -69,7 +69,7 @@
 .header__address {
   font-style: normal;
   width: 240px;
-  font-size: 18.1px;
+  font-size: 18.5px;
 }
 
 /**COVER**/
@@ -293,14 +293,14 @@
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
-  padding: 169px 0 0 0;
+  padding: 140px 0 0 0;
   font-weight: 700;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 137px;
   margin-left: 1px;
   font-size: 20px;
   font-weight: 400;
