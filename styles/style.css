@@ -65,7 +65,6 @@
   text-underline-position: under;
 }
 
-
 .header__address {
   font-style: normal;
   width: 240px;
@@ -166,7 +165,7 @@
 /**LOTS**/
 
 .lots {
-  padding: 176px 25px 0 22px;
+  padding: 178px 25px 0 22px;
 }
 
 .lots__heading {
@@ -209,7 +208,6 @@
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 5;
 }
-
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
@@ -263,15 +261,15 @@
 
 /**ABOUT**/
 
-
 .about {
-  display: flex ;
-  margin: 0 50px 182px 50px;
+  display: flex;
+  margin: 103px 50px 182px 50px;
   gap: 25px;
 }
 
 .about__column {
-  margin-top: 103px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about__logo {
@@ -295,10 +293,6 @@
   font-weight: 700;
 }
 
-.about__title h2 {
-  padding-top: 103px;
-}
-
 .about__text {
   display: flex;
   flex-direction: column;
@@ -310,3 +304,62 @@
 }
 
 /**FOOTER**/
+
+.footer {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 50px 90px;
+  justify-content: space-between;
+}
+
+.footer__address {
+  font-style: normal;
+  width: 240px;
+  font-size: 18.5px;
+}
+
+.footer__menu {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.footer__menu-list {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__menu-list-item {
+}
+
+.footer__menu-link {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  padding: 0 0 10px 20px;
+}
+
+.footer__social-link {
+  display: flex;
+  justify-content: end;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
