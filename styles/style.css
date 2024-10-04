@@ -307,10 +307,10 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  padding: 0 50px 70px;
   font-size: 18px;
   font-weight: 400;
-  padding: 0 50px 90px;
-  justify-content: space-between;
 }
 
 .footer__address {
@@ -321,23 +321,23 @@
 
 .footer__menu {
   display: flex;
-  width: auto;
   flex-direction: column;
+  width: auto;
   flex: 0 0 auto;
 }
 
 .footer__menu-list {
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
 .footer__menu-list-item {
-  margin: 10px 0;
+  margin: 0;
 }
 
 .footer__menu-link {
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
 .footer__menu-link_active {
@@ -356,8 +356,8 @@
 .footer__social-link {
   display: flex;
   justify-content: end;
-  gap: 48px;
   list-style: none;
+  gap: 48px;
 }
 
 .footer__social-icon {
